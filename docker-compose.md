@@ -65,3 +65,16 @@ networks:
 
 
 ```
+Luego de añadir estas dependencias a tu docker compose 
+
+```sh
+docker compose down
+```
+
+Y luego levanta todo 
+```sh
+docker compose up -d
+```
+
+## Nota 
+No perderas nada puesto que docker compose down no elimina volumenes, solo los contenedores y redes.
