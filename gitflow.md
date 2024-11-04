@@ -83,7 +83,7 @@ Por cada issue asignado, Usuario B creará una rama `feature` desde `develop` y,
 
     Ejemplo de descripción en la MR:
      ```
-     Implementación de la sección de contacto. Closes #1
+     Completado el requerimiento del #1 porfavor revisar para fusionar con develop closes #1
      ```
 
      Al mencionar `Closes #1`, GitLab automáticamente enlaza el issue con la MR y cerrará el issue cuando la MR sea aprobada y fusionada en `develop`.
